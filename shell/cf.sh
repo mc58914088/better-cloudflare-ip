@@ -430,7 +430,7 @@ do
 	elif [ ! -f "url.txt" ]
 	then
 		echo "从服务器下载测速文件地址 url.txt"
-		curl --retry 2 -s https://dw.oray.com/sunlogin/windows/SunloginClient_15.6.9.16287_x64.exe -o url.txt
+		curl --retry 2 -s https://better.812161818.xyz -o url.txt
 	elif [ ! -f "ips-v4.txt" ]
 	then
 		echo "从服务器下载IPV4数据 ips-v4.txt"
