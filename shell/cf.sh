@@ -434,7 +434,7 @@ do
 	elif [ ! -f "ips-v4.txt" ]
 	then
 		echo "从服务器下载IPV4数据 ips-v4.txt"
-		curl --retry 2 -s https://raw.githubusercontent.com/tmplink/IPDB/refs/heads/main/ipv4/cidr/HK.txt -o ips-v4.txt
+		curl --retry 2 -s https://www.baipiao.eu.org/cloudflare/ips-v4 -o ips-v4.txt
 	elif [ ! -f "ips-v6.txt" ]
 	then
 		echo "从服务器下载IPV6数据 ips-v6.txt"
